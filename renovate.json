@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:best-practices"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["python"],
+      "matchDepTypes": ["requires-python"],
+      "rangeStrategy": "widen",
+      "separateMultipleMinor": true,
+      "extractVersion": "^(?<version>\\d+\\.\\d+)"
+    }
+  ]
+}
