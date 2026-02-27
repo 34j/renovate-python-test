@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:best-practices"
-  ],
+  "extends": ["config:best-practices"],
   "packageRules": [
     {
       "matchPackageNames": ["python"],
